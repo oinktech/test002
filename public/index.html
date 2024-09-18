@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>留言板</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>留言板</h1>
+    <form id="messageForm">
+      <label for="message">留言內容：</label>
+      <input type="text" id="message" name="message" required>
+      <button type="submit">提交</button>
+    </form>
+    <button id="clearButton">清空所有留言</button>
+    
+    <h2>留言列表：</h2>
+    <ul id="messageList">
+      <!-- 留言將由前端動態加載 -->
+    </ul>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
