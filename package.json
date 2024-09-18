@@ -1,0 +1,18 @@
+{
+  "name": "my-render-app",
+  "version": "1.0.0",
+  "description": "An interactive message board with AJAX and enhanced UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
